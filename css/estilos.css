@@ -1,0 +1,15 @@
+header{
+   
+}
+
+nav ul{
+    background-color: rgba(138, 138, 203, 0.908);
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: wheat;
+}
