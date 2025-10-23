@@ -27,6 +27,7 @@ h1 {
 h4 {
     text-align: center;
 }
+
 /*            */
 
 /* header */
@@ -70,8 +71,8 @@ h4 {
 
 
 
-/* index-container*/
-.container-index {
+/* container reusado en index y servicios*/
+.container {
     display: flex;
     gap: 1.5rem;
     padding: rem;
@@ -116,7 +117,18 @@ h4 {
     margin-top: auto;
 }
 
+.section-title {
+    text-align: center;
+    /* Centra el texto */
+    font-size: 2rem;
+    /* Tamaño grande */
+    color: #333;
+    /* Color oscuro */
 
+    /* Espacio para que no se pegue al header ni a la sección */
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
 
 
 
